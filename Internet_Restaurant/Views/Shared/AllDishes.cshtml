@@ -1,0 +1,14 @@
+﻿@model Internet_Restaurant.Data.Models.Dish
+
+    <div class="container" style="margin-bottom:10px ; margin-top:50px; background-color:blueviolet">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@Model.img" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@Model.name</h5>
+                <p class="card-text">@Model.price</p>
+                <p class="card-text">@Model.weight</p>
+                <p class="card-text">@Model.description</p>
+                <button href="#" class="btn btn-success">В корзину</button>
+            </div>
+        </div>
+    </div>

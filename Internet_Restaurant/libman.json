@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/Content/lib/jquery/"
+    },
+    {
+      "library": "bootstrap-dropdown-hover@4.2.0",
+      "destination": "wwwroot/Content/lib/bootstrap-dropdown-hover/"
+    },
+    {
+      "library": "animate.css@4.1.1",
+      "destination": "wwwroot/Content/css/animate.css/"
+    },
+    {
+      "library": "hover.css@2.3.1",
+      "destination": "wwwroot/Content/css/hover.css/"
+    },
+    {
+      "library": "colors.css@3.0.0",
+      "destination": "wwwroot/Content/css/colors.css/"
+    },
+    {
+      "library": "popper.js@2.5.3",
+      "destination": "wwwroot/Content/js/popper.js/"
+    },
+    {
+      "library": "parallax.js@1.5.0",
+      "destination": "wwwroot/Content/js/parallax.js/",
+      "files": [
+        "parallax.min.js"
+      ]
+    },
+    {
+      "library": "javascript.util@0.12.12",
+      "destination": "wwwroot/Content/js/javascript.util/"
+    }
+  ]
+}

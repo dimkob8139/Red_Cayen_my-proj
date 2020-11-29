@@ -1,0 +1,16 @@
+﻿@using Internet_Restaurant.Data.Models
+<h1>Все блюда</h1>
+<h3>@Model.currCategory</h3>
+
+<div>
+    @{
+        foreach (Dish dish in Model.allDishes)
+        {
+            @await Html.PartialAsync("AllDishes",dish)
+
+            //await Html.PartialAsync("AllDishes", dish);
+        }
+
+    }
+
+</div>
